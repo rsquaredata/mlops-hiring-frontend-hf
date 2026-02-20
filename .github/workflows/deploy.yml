@@ -1,4 +1,4 @@
-name: Deploy Frontend to HuggingFace Space
+name: Deploy to HuggingFace Space
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git config --global user.email "github-actions@users.noreply.github.com"
+          git config --global user.email "you@example.com"
           git config --global user.name "GitHub Action"
 
           git clone https://rsquaredata:${HF_TOKEN}@huggingface.co/spaces/rsquaredata/mlops-hiring-frontend space
