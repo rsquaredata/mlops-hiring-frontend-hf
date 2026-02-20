@@ -34,3 +34,7 @@ User → Streamlit → FastAPI → MongoDB Atlas
 - Real-time backend prediction
 - Fully cloud-hosted
 - CI/CD deployment
+
+## Architecture
+
+See [meta repository](https://github.com/rsquaredata/mlops-hiring) for full system architecture.
