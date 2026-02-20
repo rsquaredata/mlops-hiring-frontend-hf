@@ -1,4 +1,4 @@
-name: Deploy to HuggingFace Space
+name: Deploy Frontend to HuggingFace Space
 
 on:
   push:
